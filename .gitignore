@@ -1,5 +1,16 @@
-.*
-!/.gitignore
-/build
-/bin/*
-!/bin/*.py
+# ignore all file
+*
+!*/
+
+# Manage File
+!.gitignore
+!*.py
+!*.cpp
+!*.hs
+!CMakeLists.txt
+
+# ignore file
+*flymake.hs
+
+# ignore directories
+build
